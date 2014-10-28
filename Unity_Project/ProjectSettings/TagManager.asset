@@ -4,6 +4,9 @@
 TagManager:
   tags:
   - 
+  - Bomb
+  - Hat
+  - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
   Builtin Layer 2: Ignore Raycast
@@ -40,4 +43,16 @@ TagManager:
   - name: Default
     userID: 0
     uniqueID: 0
+    locked: 0
+  - name: Background
+    userID: 1
+    uniqueID: 802639819
+    locked: 0
+  - name: Foreground
+    userID: 2
+    uniqueID: 3539185335
+    locked: 0
+  - name: Sparks
+    userID: 3
+    uniqueID: 56178289
     locked: 0
