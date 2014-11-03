@@ -6,11 +6,11 @@ public class LifeCounting : MonoBehaviour
 	public GUIText lifeText;
 	public GameController gameController;
 
-	void Update()
+/*	void Update()
 	{
 		UpdateLife ();
 	}
-
+*/
 	void OnCollisionEnter2D(Collision2D other)
 	{
 		if(other.gameObject.tag == "Bomb")

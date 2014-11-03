@@ -12,7 +12,7 @@ public class DestroyByBoundary : MonoBehaviour
 						return;
 		else
 		{
-			gameController.life --;
+			//gameController.life --;
 		}
 	}
 

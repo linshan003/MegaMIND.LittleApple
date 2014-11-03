@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
 	public GameObject restart;
 	public HatController hatController;
 	public int life ;
+	//public AudioClip littleApple;
 
 	private float maxWidth;
 	private bool playing;
@@ -40,7 +41,7 @@ public class GameController : MonoBehaviour
 			playing = false;
 		}
 		hatController.ToggleControl (playing);
-		UpdateText ();
+		//UpdateText ();
 	}
 	void FixedUpdate()
 	{
@@ -52,7 +53,7 @@ public class GameController : MonoBehaviour
 				time = 0;
 
 		}
-		//UpdateText ();
+		UpdateText ();
 
 	} 
 
@@ -67,6 +68,7 @@ public class GameController : MonoBehaviour
 	{
 		yield return new WaitForSeconds (2.0f);
 		playing = true;
+		audio.Play ();
 		while(playing)
 		{
 			GameObject ball = balls[Random.Range(0,balls.Length)];
@@ -78,6 +80,7 @@ public class GameController : MonoBehaviour
 			yield return new WaitForSeconds(4.0f/(time/3 + 2.0f));
 		}
 		//yield return new WaitForSeconds (2.0f);
+		audio.Stop ();
 		gameOverText.SetActive (true);
 		//yield return new WaitForSeconds (2.0f);
 		restart.SetActive (true);
@@ -85,6 +88,6 @@ public class GameController : MonoBehaviour
 	}
 	void UpdateText()
 	{
-		Timer.text = "Life: \n" + life; 
+		Timer.text = "Time: \n" +  Mathf.FloorToInt(time); 
 	}
 }

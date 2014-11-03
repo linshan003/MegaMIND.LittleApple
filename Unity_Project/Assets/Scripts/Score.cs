@@ -21,6 +21,7 @@ public class Score : MonoBehaviour
 
 	void OnTriggerEnter2D()
 	{
+		audio.Play ();
 		score += ballValue;
 		gameController.life ++;
 	}
