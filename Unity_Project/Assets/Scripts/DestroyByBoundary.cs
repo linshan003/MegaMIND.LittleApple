@@ -8,12 +8,12 @@ public class DestroyByBoundary : MonoBehaviour
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		Destroy (other.gameObject);
-		if (other.gameObject.tag == "Bomb")
+		/*if (other.gameObject.tag == "Bomb")
 						return;
 		else
 		{
-			//gameController.life --;
-		}
+			gameController.life --;
+		}*/
 	}
 
 }
