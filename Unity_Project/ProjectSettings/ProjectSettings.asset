@@ -10,8 +10,8 @@ PlayerSettings:
   targetGlesGraphics: 1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: Unity_Project
+  companyName: MegaMIND Studio
+  productName: Little Apple
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -103,13 +103,14 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
-  resolutionDialogBanner: {fileID: 0}
+  AndroidKeystoreName: C:/Users/David Lin/Desktop/MegaMIND Android Key.keystore
+  AndroidKeyaliasName: megamind android product
+  resolutionDialogBanner: {fileID: 2800000, guid: 4f8b432c5c36b4c9fbb8222fe9ccfa6d,
+    type: 3}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 0}
+    - m_Icon: {fileID: 2800000, guid: 4f8b432c5c36b4c9fbb8222fe9ccfa6d, type: 3}
       m_Size: 128
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Black Background
