@@ -65,25 +65,11 @@
      <Compile Include="Assets\Scripts\SelfDestruct.cs" />
      <Compile Include="Assets\Scripts\SetParticleSortingLayer.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
-     <None Include="Assets\Plugins\Android\res\values\colors.xml" />
-     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
-     <None Include="Assets\Plugins\Android\res\values\ssdk_strings.xml" />
-     <None Include="Assets\Plugins\Android\res\values\oks_strings.xml" />
-     <None Include="Assets\Plugins\Android\res\drawable-xhdpi\ssdk_oks_shake_to_share_back.xml" />
-     <None Include="Assets\Plugins\Android\res\values-en\ssdk_strings.xml" />
-     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Plugins\Android\res\values-en\oks_strings.xml" />
-     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
      <None Include="Assets\Example Games\Hat Trick - The Catch Game\_ReadMe.txt" />
      <None Include="Assets\Example Games\Hat Trick - The Catch Game\Fonts\LuckiestGuy\LICENSE.txt" />
-     <None Include="Assets\Plugins\Android\assets\ShareSDK.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{23FC7004-2CE6-1D63-42F0-9F3FED357C36}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
